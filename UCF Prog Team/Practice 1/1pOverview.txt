@@ -1,0 +1,9 @@
+Practice One Overiew:
+
+Calc: Used HashSets to create an index of every value created using the parameters of the problem
+Letters: Comparing Strings you can .split(") then sort, and then .equals() if order of letters doesn't matter
+Change: Prefix sum array after sorting the array, then compare to the next highest value and if that value is greater than the sum than you aren't able to create the next value
+Shuffle: Just follow through with each of the shuffles and then compare the intermediant full decks to the target, if it ever matches then return numMatches, if both halfs ever return to the original strings then you can end and return -1 because the target is never able to be created.
+
+TBD:
+Ant and Morecombs you should take a look at:
