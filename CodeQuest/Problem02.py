@@ -1,6 +1,6 @@
 def main_function():
     vals = input("")
-    values = vals.split()
+    values = vals.split()   
 
     volume_of_pool = round(int(values[0]), 0)
     rate_of_fill = round(int(values[1]), 0)
