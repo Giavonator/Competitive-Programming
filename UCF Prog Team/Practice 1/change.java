@@ -13,7 +13,7 @@ public class change{
 			}
 			Arrays.sort(allValues);
 
-			int cumulative = 1;
+			int cumulative = 2;
 			for (int x = 0; x < numValues; x++){
 				if (allValues[x] <= cumulative){
 					cumulative += allValues[x];
