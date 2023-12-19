@@ -8,27 +8,24 @@ public class quests {
 			long N = input.nextInt();
 			long K = input.nextInt();
 			long[] firstPoints = new long[(int)N];
-			long[] subsequentPoints = new long[(int)N];
+			long[] maxSubsequent = new long[(int)N];
 
-			for(int i = 0; i < N; i++){
-				firstPoints[i] = input.nextLong();			
+			firstPoints[0] = input.nextLong();
+			for(int i = 1; i < N; i++){
+				firstPoints[i] = input.nextLong() + firstPoints[i-1];			
 			}
-			for(int i = 0; i < N; i++){
-				subsequentPoints[i] = input.nextLong();			
+
+			maxSubsequent[0] = input.nextLong();	
+			for(int i = 1; i < N; i++){
+				maxSubsequent[i] = Math.max(input.nextLong(), maxSubsequent[i-1]);	
 			}
 
 			long max = 0;
-
 			for(int i = 0; i < K && i < N; i++){
-				long current = 0;
-				for(int j = 0; j <= i; j++){
-					current += firstPoints[j];
-				}
-				current += subsequentPoints[x] * (K - (i + 1));
-				max = Math.max(current, max);
+				max = Math.max(firstPoints[i] + (maxSubsequent[i] * (K - i - 1)), max);
 			}
 
-			System.out.println("THIS IS THE MAX" + max);
+			System.out.println(max);
 
 		}
 
