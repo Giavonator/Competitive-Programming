@@ -1,4 +1,4 @@
-//MY FIRST EVERY GREEDY/DFS SOLUTION YESSS
+//MY FIRST EVERY GREEDY/BFS SOLUTION YESSS
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.LinkedList;
