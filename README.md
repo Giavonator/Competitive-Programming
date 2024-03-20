@@ -1,4 +1,4 @@
-<h1 align="center" style="font-weight:bold;"> ¤ ━━━━━ ⋞ Competitive Programming ⋟ ━━━━━ ¤ </h1>
+<h1 align="center" style="font-weight:bold;"> ¤ ━━━━ ⋞ Competitive Programming ⋟ ━━━━ ¤ </h1>
 <h2 align="center">
 $${\color{lightblue}All \space Programming \space Files \space Created \space Over \space The \space Years}$$
 </h2>
@@ -12,7 +12,7 @@ $${\color{lightblue}All \space Programming \space Files \space Created \space Ov
   <img src="https://github.com/Giavonator/Sweet-Yo-Self/assets/68939873/eda90db1-a1a0-4376-8127-a6e40fd587ce" width="400" height="250">
 </a>
 
-$${\color{lightpink}Sweet \space Treats \space and \space All \space You \space Can \space Eat!}$$
+$${\color{lightblue}Much \space More \space Coding \space Too \space Come!}$$
 
 </p>
   
