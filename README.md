@@ -1,6 +1,6 @@
 <h1 align="center" style="font-weight:bold;"> ¤ ━━━━━ ⋞ Competitive Programming ⋟ ━━━━━ ¤ </h1>
 <h2 align="center">
-$${\color{blue}All \space Programming \space Files \space Created \space Over \space The \space Years}$$
+$${\color{lightblue}All \space Programming \space Files \space Created \space Over \space The \space Years}$$
 </h2>
 <p align="center">
 <a href="https://sweetyoself.com">
